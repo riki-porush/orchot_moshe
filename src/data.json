@@ -78,7 +78,7 @@
     "lastName": "כץ",
     "grade": "א",
     "gradeNum": 1,
-    "donation": 624
+    "donation": 0
   },
   {
     "id": "336299086",
@@ -267,7 +267,7 @@
     "lastName": "גודמן",
     "grade": "א",
     "gradeNum": 2,
-    "donation": 250
+    "donation": 0
   },
   {
     "id": "218471795",
@@ -501,7 +501,7 @@
     "lastName": "גודמן",
     "grade": "ב",
     "gradeNum": 1,
-    "donation": 250
+    "donation": 0
   },
   {
     "id": "333055333",
@@ -1374,6 +1374,6 @@
     "lastName": "שטיינבלט",
     "grade": "ג",
     "gradeNum": 2,
-    "donation": 5000000
+    "donation": 0
   }
 ]

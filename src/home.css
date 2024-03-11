@@ -1,0 +1,119 @@
+
+.movie-container{
+    display: flex;
+    padding: 2%;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.right-container{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 32%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.content-video{
+    place-items: center; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: 'rgba(255, 255, 255, 0.5)',
+}
+
+.top-slider-image[data-v-50688450] {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.fa{
+    text-rendering: auto;
+    font-size: inherit;
+    display: inline-block;
+}
+.video{
+    width: 100%;
+    padding: 2%;
+}
+
+video{
+    width: 100%;
+}
+
+.card-text {
+    border-radius: 8px;
+    width: 87%;
+    margin-top: 2%;
+    text-align: center;
+    padding: 30px;
+    border: 52px solid #ccc7c7;
+    background-color: #ece5e5;
+  }
+
+  .textBox {
+   width: 30vw; 
+  }
+
+  .OM-button{
+    width: 12vw;
+    margin-right: 5%;
+    background-color: #6C5C53;
+  }
+
+  .cool-button{
+    width: 95%;
+  }
+
+  .logo{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-right: 6%;
+    margin-top: -25%
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 28%; 
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  .video-container video {
+    position: absolute;
+    padding: 2%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .video-container video:hover {
+    transform: scale(1.05); 
+  }
+  .progress-h {
+    margin-top: 2%;
+    text-align: center;
+    padding: 30px;
+    border: 52px solid #ccc7c7;
+    border-radius: 15px;
+    background-color: #ece5e5;
+    box-shadow: 0 0 10px rgba(199, 195, 195, 0.1);
+
+}

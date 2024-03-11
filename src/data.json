@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "218227775",
+    "familyId": 1,
+    "firstName": "יעקב אהרון",
+    "lastName": "אדלר",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217665322",
+    "familyId": 2,
+    "firstName": "שמעון",
+    "lastName": "אורנשטיין",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218373322",
+    "familyId": 3,
+    "firstName": "יואל משה",
+    "lastName": "אייזנמן",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218235893",
+    "familyId": 4,
+    "firstName": "אלעזר",
+    "lastName": "אינהורן",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217902824",
+    "familyId": 5,
+    "firstName": "יהודה",
+    "lastName": "בן שלוש",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331410217",
+    "familyId": 6,
+    "firstName": "ישראל מאיר",
+    "lastName": "גולדשטיין",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218643658",
+    "familyId": 7,
+    "firstName": "יוסף משה",
+    "lastName": "גרילוס",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "346454903",
+    "familyId": 8,
+    "firstName": "יצחק",
+    "lastName": "הופמן",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "327138673",
+    "familyId": 9,
+    "firstName": "אשר",
+    "lastName": "כץ",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 624
+  },
+  {
+    "id": "336299086",
+    "familyId": 10,
+    "firstName": "חיים שלום",
+    "lastName": "ליבוביץ",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218340149",
+    "familyId": 11,
+    "firstName": "חיים אריה",
+    "lastName": "מרילס",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "334177417",
+    "familyId": 12,
+    "firstName": "מאיר",
+    "lastName": "נגר",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218634160",
+    "familyId": 13,
+    "firstName": "אפרים",
+    "lastName": "סיפר",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333125896",
+    "familyId": 14,
+    "firstName": "ידידיה",
+    "lastName": "עמאר",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218785426",
+    "familyId": 15,
+    "firstName": "מאיר",
+    "lastName": "פוקס",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333064236",
+    "familyId": 16,
+    "firstName": "יצחק אלחנן",
+    "lastName": "פרוש",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218184125",
+    "familyId": 17,
+    "firstName": "שלמה זלמן",
+    "lastName": "קליין",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333145266",
+    "familyId": 18,
+    "firstName": "איתי",
+    "lastName": "קמחי",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217922442",
+    "familyId": 19,
+    "firstName": "דוד",
+    "lastName": "ראובן",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218143436",
+    "familyId": 20,
+    "firstName": "יהודה",
+    "lastName": "רבינסקי",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "337618904",
+    "familyId": 21,
+    "firstName": "אליהו",
+    "lastName": "רוזנהולץ",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333685972",
+    "familyId": 22,
+    "firstName": "בנימין",
+    "lastName": "רזניק",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "219245610",
+    "familyId": 23,
+    "firstName": "יחזקאל",
+    "lastName": "שורץ",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218932788",
+    "familyId": 24,
+    "firstName": "יעקב",
+    "lastName": "שטדלר",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "218270239",
+    "familyId": 25,
+    "firstName": "אוריאל",
+    "lastName": "שטלמן",
+    "grade": "א",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332936368",
+    "familyId": 26,
+    "firstName": "נתנאל",
+    "lastName": "אמיתי",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333094019",
+    "familyId": 27,
+    "firstName": "יהודה",
+    "lastName": "אסולין",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216973644",
+    "familyId": 28,
+    "firstName": "זאב דב",
+    "lastName": "בירנצויג",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218535029",
+    "familyId": 29,
+    "firstName": "יצחק",
+    "lastName": "ברנט",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218675510",
+    "familyId": 30,
+    "firstName": "יונה שמחה",
+    "lastName": "גודמן",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 250
+  },
+  {
+    "id": "218471795",
+    "familyId": 31,
+    "firstName": "שי",
+    "lastName": "גרינוולד",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218190403",
+    "familyId": 32,
+    "firstName": "יאיר",
+    "lastName": "הופמן",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217923143",
+    "familyId": 33,
+    "firstName": "איתמר",
+    "lastName": "הרטמן",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333692168",
+    "familyId": 34,
+    "firstName": "איתמר",
+    "lastName": "זבולון",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217797687",
+    "familyId": 35,
+    "firstName": "ישי",
+    "lastName": "ימיני",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333311389",
+    "familyId": 36,
+    "firstName": "יהונתן",
+    "lastName": "ישי",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218183408",
+    "familyId": 37,
+    "firstName": "ישראל",
+    "lastName": "לרנר",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218983518",
+    "familyId": 38,
+    "firstName": "אריה",
+    "lastName": "מוסקוביץ",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "334106655",
+    "familyId": 39,
+    "firstName": "מנשה יהודה",
+    "lastName": "מלכה",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "219146784",
+    "familyId": 40,
+    "firstName": "שמואל",
+    "lastName": "מנטרוז",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218271518",
+    "familyId": 41,
+    "firstName": "ברוך שמואל",
+    "lastName": "סולומון",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218446482",
+    "familyId": 42,
+    "firstName": "אלעזר",
+    "lastName": "פוליטנסקי",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332959782",
+    "familyId": 43,
+    "firstName": "בנימין",
+    "lastName": "פרויליך",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218672962",
+    "familyId": 44,
+    "firstName": "שמואל",
+    "lastName": "צדוק",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218618981",
+    "familyId": 45,
+    "firstName": "דוד אפרים",
+    "lastName": "קלב",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218399574",
+    "familyId": 46,
+    "firstName": "בנימין",
+    "lastName": "רחמים",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "555147480",
+    "familyId": 47,
+    "firstName": "משה",
+    "lastName": "ריינס",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218803781",
+    "familyId": 48,
+    "firstName": "רפאל",
+    "lastName": "שמאע",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333146033",
+    "familyId": 49,
+    "firstName": "יוסף",
+    "lastName": "שרמן",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331889386",
+    "familyId": 50,
+    "firstName": "אריאל",
+    "lastName": "תורג'מן",
+    "grade": "א",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217630391",
+    "familyId": 51,
+    "firstName": "איתמר",
+    "lastName": "אייפרמן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217682202",
+    "familyId": 52,
+    "firstName": "חיים",
+    "lastName": "אלחדד",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "327008967",
+    "familyId": 53,
+    "firstName": "אהרן שלום",
+    "lastName": "בוקובזה",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333146967",
+    "familyId": 54,
+    "firstName": "שמואל",
+    "lastName": "בן חיים",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333004281",
+    "familyId": 55,
+    "firstName": "אביגדור",
+    "lastName": "ברנשטיין",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "329058416",
+    "familyId": 30,
+    "firstName": "יעקב ישראל",
+    "lastName": "גודמן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 250
+  },
+  {
+    "id": "333055333",
+    "familyId": 57,
+    "firstName": "בנימין",
+    "lastName": "גליס",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331128785",
+    "familyId": 58,
+    "firstName": "יוסף מרדכי",
+    "lastName": "הכהן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217632876",
+    "familyId": 59,
+    "firstName": "בנימין",
+    "lastName": "ויסלובסקי",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332986330",
+    "familyId": 60,
+    "firstName": "מרדכי חננאל",
+    "lastName": "טויטו",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217727999",
+    "familyId": 61,
+    "firstName": "איתמר",
+    "lastName": "טחן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217163294",
+    "familyId": 62,
+    "firstName": "חיים",
+    "lastName": "יעקבס",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217810530",
+    "familyId": 63,
+    "firstName": "יהודה",
+    "lastName": "פולסקי",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332081389",
+    "familyId": 64,
+    "firstName": "אליהו",
+    "lastName": "פיין",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217461144",
+    "familyId": 65,
+    "firstName": "יונתן",
+    "lastName": "פרטיג",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217799311",
+    "familyId": 66,
+    "firstName": "יהונתן דב",
+    "lastName": "פרידמן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217666338",
+    "familyId": 67,
+    "firstName": "יעקב ברוך",
+    "lastName": "פרידמן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217410547",
+    "familyId": 68,
+    "firstName": "חננאל",
+    "lastName": "צ'ילקובסקי",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331307429",
+    "familyId": 69,
+    "firstName": "מלאכי",
+    "lastName": "צנגר",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "333056653",
+    "familyId": 70,
+    "firstName": "שמואל צבי",
+    "lastName": "קניג",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331215020",
+    "familyId": 71,
+    "firstName": "יאיר",
+    "lastName": "קרוגר",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332115435",
+    "familyId": 19,
+    "firstName": "אוריאל",
+    "lastName": "ראובן",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332973775",
+    "familyId": 73,
+    "firstName": "יהודה",
+    "lastName": "רביץ",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331278580",
+    "familyId": 74,
+    "firstName": "דניאל",
+    "lastName": "רפפורט",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332964345",
+    "familyId": 75,
+    "firstName": "יעקב יצחק",
+    "lastName": "שכטר",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "214783219",
+    "familyId": 76,
+    "firstName": "שמחה שמעון",
+    "lastName": "שפיצר",
+    "grade": "ב",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "332077718",
+    "familyId": 77,
+    "firstName": "שמעון",
+    "lastName": "אשר",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216986349",
+    "familyId": 78,
+    "firstName": "אהרון",
+    "lastName": "בודל",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "329645121",
+    "familyId": 79,
+    "firstName": "דוד יהודה",
+    "lastName": "בוחבוט",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332961077",
+    "familyId": 80,
+    "firstName": "עקיבא",
+    "lastName": "בילוביץ",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331032441",
+    "familyId": 81,
+    "firstName": "דוד ישראל",
+    "lastName": "בן שושן",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332105188",
+    "familyId": 82,
+    "firstName": "ישראל",
+    "lastName": "ברגר",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333311355",
+    "familyId": 83,
+    "firstName": "אליהו",
+    "lastName": "גולבנציץ",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217700400",
+    "familyId": 84,
+    "firstName": "אליהו חיים",
+    "lastName": "גפנר",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331893750",
+    "familyId": 85,
+    "firstName": "יצחק",
+    "lastName": "היישריק",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332914647",
+    "familyId": 86,
+    "firstName": "ישראל",
+    "lastName": "וינברגר",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332228386",
+    "familyId": 87,
+    "firstName": "שלמה",
+    "lastName": "ויסברג",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331887224",
+    "familyId": 88,
+    "firstName": "יאיר",
+    "lastName": "ויסנשטרן",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217741537",
+    "familyId": 89,
+    "firstName": "הלל",
+    "lastName": "ישיביץ",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "327176608",
+    "familyId": 90,
+    "firstName": "יאשיהו יוסף",
+    "lastName": "ישראל",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331221846",
+    "familyId": 91,
+    "firstName": "פיני",
+    "lastName": "כהן",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218050672",
+    "familyId": 92,
+    "firstName": "מתתיהו",
+    "lastName": "לוברסקי",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217647692",
+    "familyId": 93,
+    "firstName": "יצחק",
+    "lastName": "לוי",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331305698",
+    "familyId": 94,
+    "firstName": "בן ציון",
+    "lastName": "ליפקה",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "558851507",
+    "familyId": 95,
+    "firstName": "יוסף מרדכי",
+    "lastName": "מנדלוביץ",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217635036",
+    "familyId": 40,
+    "firstName": "חיים",
+    "lastName": "מנטרוז",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217043710",
+    "familyId": 97,
+    "firstName": "אברהם",
+    "lastName": "נטף",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "333786374",
+    "familyId": 98,
+    "firstName": "אליהו",
+    "lastName": "פיין",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331231589",
+    "familyId": 99,
+    "firstName": "חיים יאיר",
+    "lastName": "פרץ",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "218111979",
+    "familyId": 100,
+    "firstName": "יאיר",
+    "lastName": "צדוק",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "327148706",
+    "familyId": 101,
+    "firstName": "משה",
+    "lastName": "שוולב",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332527076",
+    "familyId": 102,
+    "firstName": "נתן צבי",
+    "lastName": "שטיין",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217527910",
+    "familyId": 103,
+    "firstName": "יצחק",
+    "lastName": "שרביט",
+    "grade": "ב",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217160589",
+    "familyId": 104,
+    "firstName": "ישראל",
+    "lastName": "אהרמן",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217076330",
+    "familyId": 105,
+    "firstName": "מרדכי",
+    "lastName": "אייזנברג",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "556533727",
+    "familyId": 106,
+    "firstName": "יוסף חיים",
+    "lastName": "ארונוביץ",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "329604938",
+    "familyId": 107,
+    "firstName": "שלמה אריה",
+    "lastName": "ארנפלד",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331307942",
+    "familyId": 108,
+    "firstName": "נפתלי",
+    "lastName": "בלר",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216199794",
+    "familyId": 109,
+    "firstName": "דוד",
+    "lastName": "בן גיגי",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217317544",
+    "familyId": 110,
+    "firstName": "יהודה",
+    "lastName": "בן חיים",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "330985250",
+    "familyId": 111,
+    "firstName": "אריה",
+    "lastName": "בנבנשתי",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331081273",
+    "familyId": 112,
+    "firstName": "דב משה מנחם",
+    "lastName": "ברנשטיין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216563593",
+    "familyId": 6,
+    "firstName": "שלמה",
+    "lastName": "גולדשטיין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "330584434",
+    "familyId": 114,
+    "firstName": "שמאול חיים",
+    "lastName": "הופבאור",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "330873472",
+    "familyId": 115,
+    "firstName": "חיים",
+    "lastName": "והב",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331303776",
+    "familyId": 116,
+    "firstName": "יוסף",
+    "lastName": "ווגנר",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331150433",
+    "familyId": 117,
+    "firstName": "יעקב",
+    "lastName": "וונדרר",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331615161",
+    "familyId": 34,
+    "firstName": "אורי",
+    "lastName": "זבולון",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "330903022",
+    "familyId": 119,
+    "firstName": "משה",
+    "lastName": "טקשה",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216524009",
+    "familyId": 120,
+    "firstName": "משה",
+    "lastName": "כהן",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331221382",
+    "familyId": 121,
+    "firstName": "איתמר",
+    "lastName": "כהן",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216778936",
+    "familyId": 122,
+    "firstName": "יאיר",
+    "lastName": "מנוחין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331145961",
+    "familyId": 123,
+    "firstName": "יוסף מתייהו",
+    "lastName": "ספירשטיין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216233635",
+    "familyId": 124,
+    "firstName": "משה",
+    "lastName": "פלורנטין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "217643840",
+    "familyId": 125,
+    "firstName": "ברוך שלום",
+    "lastName": "קוריץ",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "329336572",
+    "familyId": 126,
+    "firstName": "יהושע",
+    "lastName": "רוז'ין",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331147074",
+    "familyId": 127,
+    "firstName": "אלעזר",
+    "lastName": "רצאבי",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "331297986",
+    "familyId": 128,
+    "firstName": "אריאל",
+    "lastName": "שוהם",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216921759",
+    "familyId": 129,
+    "firstName": "צבי",
+    "lastName": "שטרן",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216682278",
+    "familyId": 130,
+    "firstName": "דניאל",
+    "lastName": "שכטר",
+    "grade": "ג",
+    "gradeNum": 1,
+    "donation": 0
+  },
+  {
+    "id": "216543769",
+    "familyId": 131,
+    "firstName": "יצחק",
+    "lastName": "אגאי",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "330977042",
+    "familyId": 132,
+    "firstName": "מוטי",
+    "lastName": "איצקוביץ",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331289116",
+    "familyId": 133,
+    "firstName": "אהרון ישעיהו",
+    "lastName": "אלבוים",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "329865174",
+    "familyId": 134,
+    "firstName": "דניאל",
+    "lastName": "בן פורת",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216959072",
+    "familyId": 135,
+    "firstName": "שלמה זלמן",
+    "lastName": "ברדפיס",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217101047",
+    "familyId": 136,
+    "firstName": "אברהם",
+    "lastName": "דנה",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "330911280",
+    "familyId": 137,
+    "firstName": "יוסף",
+    "lastName": "ווגשל",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331657841",
+    "familyId": 138,
+    "firstName": "אהרון",
+    "lastName": "ווכטל",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331693770",
+    "familyId": 139,
+    "firstName": "שרגא פייויש",
+    "lastName": "ויניגר",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331747519",
+    "familyId": 140,
+    "firstName": "נתן",
+    "lastName": "זגורי",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331762187",
+    "familyId": 141,
+    "firstName": "יהודה",
+    "lastName": "ישי",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216683599",
+    "familyId": 142,
+    "firstName": "הלל",
+    "lastName": "כהן",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217045996",
+    "familyId": 143,
+    "firstName": "ישעיה",
+    "lastName": "לוין",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217173970",
+    "familyId": 144,
+    "firstName": "שלום ישעיה",
+    "lastName": "ליבוביץ",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217171602",
+    "familyId": 145,
+    "firstName": "ברוך מרדכי",
+    "lastName": "מאיירס",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331139675",
+    "familyId": 146,
+    "firstName": "אוריאל",
+    "lastName": "מיארה",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "217100361",
+    "familyId": 147,
+    "firstName": "אברהם צבי",
+    "lastName": "מרגליות",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "332272731",
+    "familyId": 148,
+    "firstName": "גדליה",
+    "lastName": "פישמן",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216929471",
+    "familyId": 149,
+    "firstName": "אפרים",
+    "lastName": "פרידליין",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "331304170",
+    "familyId": 150,
+    "firstName": "ישראל",
+    "lastName": "קאנווי",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "329752968",
+    "familyId": 151,
+    "firstName": "מתתיהו",
+    "lastName": "קלרמן",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216798314",
+    "familyId": 152,
+    "firstName": "גרשון",
+    "lastName": "שוורץ",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 0
+  },
+  {
+    "id": "216435495",
+    "familyId": 153,
+    "firstName": "חיים",
+    "lastName": "שטיינבלט",
+    "grade": "ג",
+    "gradeNum": 2,
+    "donation": 5000000
+  }
+]

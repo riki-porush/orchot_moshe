@@ -1,0 +1,51 @@
+/* סגנון הכפתור */
+.cool-button {
+    background-color: #6D9B97; /* צבע רקע */
+    border: none; /* ללא גבול */
+    color: white; /* צבע טקסט */
+    padding: 15px 32px; /* מרווחים מסביב לטקסט */
+    text-align: center; /* מרכז טקסט */
+    text-decoration: none; /* ללא קווים תחתונים */
+    display: inline-block; /* כדי שהכפתור יקבל את הרוחב של הטקסט בו */
+    font-size: 16px; /* גודל הטקסט */
+    margin: 4px 2px; /* מרווחים מסביב לכפתור */
+    transition-duration: 0.4s; /* זמן המעבר בין המצבים */
+    cursor: pointer; /* סמן העכבר יהפוך לידידותי */
+    border-radius: 12px; /* פינות מעוגלות */
+  }
+
+  .center-button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cool-button-header {
+    background-color: #429d93; /* צבע רקע */
+    border: none; /* ללא גבול */
+    color: #6d593b; /* צבע טקסט */
+    padding: 15px 32px; /* מרווחים מסביב לטקסט */
+    text-align: center; /* מרכז טקסט */
+    text-decoration: none; /* ללא קווים תחתונים */
+    display: inline-block; /* כדי שהכפתור יקבל את הרוחב של הטקסט בו */
+    font-size: 16px; /* גודל הטקסט */
+    margin: 4px 2px; /* מרווחים מסביב לכפתור */
+    transition-duration: 0.4s; /* זמן המעבר בין המצבים */
+    cursor: pointer; /* סמן העכבר יהפוך לידידותי */
+    border-radius: 12px; /* פינות מעוגלות */
+    /* right: 40%; */
+    margin-top: 70px;
+    width: 167px;
+  }
+  
+  /* סגנון כאשר העכבר עובר על הכפתור */
+  .cool-button:hover {
+    background-color: #C1B887; /* צבע רקע כאשר העכבר עובר על הכפתור */
+    color: white; /* צבע טקסט כאשר העכבר עובר על הכפתור */
+  }
+  
+  /* סגנון כאשר הכפתור נלחץ */
+  .cool-button:active {
+    background-color: #3e8e41; /* צבע רקע כאשר הכפתור נלחץ */
+    color: white; /* צבע טקסט כאשר הכפתור נלחץ */
+  }
+  

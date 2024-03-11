@@ -1,0 +1,71 @@
+.headerImg{
+    height: 100%;
+    width: 100vw;
+    direction: rtl;
+    align-items: center;   
+    background-color: #ecebbc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+   
+}
+.progress {
+    margin-top: 2%;
+    text-align: center;
+    padding: 30px;
+    border: 52px solid #ccc7c7;
+    border-radius: 15px;
+    background-color: #ece5e5;
+    box-shadow: 0 0 10px rgba(199, 195, 195, 0.1);
+
+}
+.text{
+    font-size: 18px;
+    color: rgb(160, 117, 61);
+    padding-top: 5px;
+    font-family: 'Segoe UI Semibold', sans-serif;
+}
+
+.progressbar-text {
+    font-family: 'Segoe UI Semibold', sans-serif; 
+  }
+
+.logo{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+}
+.big-text{
+    font-size: 56px;
+    color: rgb(160, 117, 61);
+}
+
+.OM-button{
+    width: 12vw;
+    margin-right: 5%;
+    background-color: #6C5C53;
+  }
+.prog-div{
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+.progress{
+    width: 180px !important;
+    height: 180px !important;
+    font-size: large;
+    position: relative;
+    border: none !important;
+    background:none !important;
+}
+
+img{
+    width: 420px;
+}
+.logoBanner{
+    margin-right: 13%;
+}

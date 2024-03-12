@@ -99,8 +99,8 @@ exports.handler = async function (event, context) {
   } else {
     // Handle other routes or HTTP methods
     return {
-      statusCode: 404,
-      body: "Not Found",
+      statusCode: 200,
+      body: "Orchot Moshe",
     };
   }
 };

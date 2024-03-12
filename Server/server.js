@@ -64,6 +64,7 @@ app.post("/write-to-json", (req, res) => {
 
 // הגדרת נתיב לקובץ ה-HTML הראשי של ה-React app
 app.get("*", (req, res) => {
+  console.log(req);
   return res.status(200).send(",שרת node פועל");
 });
 // התאמת הפונקציה לפונקציות של Netlify

@@ -69,6 +69,38 @@ app.get("*", (req, res) => {
   return res.status(200).send(",שרת node פועל");
 });
 // התאמת הפונקציה לפונקציות של Netlify
-exports.handler = async function(event, context) {
-  return app(event, context);
+exports.handler = async function (event, context) {
+  // Handle Lambda event here
+  // You should parse the event and decide what to do based on the request
+  // For example, you can check the HTTP method and path to determine which route to execute
+
+  const route = event.path; // Get the path from the Lambda event
+
+  // Define your logic to handle different routes
+  if (route === "/write-to-json" && event.httpMethod === "POST") {
+    // Call the corresponding Express route handler
+    const expressRes = await new Promise((resolve, reject) => {
+      const expressReq = httpMocks.createRequest(event);
+      const expressRes = httpMocks.createResponse({ event });
+      app.handle(expressReq, expressRes, () => {
+        resolve(expressRes);
+      });
+    });
+
+    // Extract the relevant data from the Express response
+    const { statusCode, headers, _getData } = expressRes;
+
+    // Return the Lambda response
+    return {
+      statusCode,
+      headers,
+      body: _getData(),
+    };
+  } else {
+    // Handle other routes or HTTP methods
+    return {
+      statusCode: 404,
+      body: "Not Found",
+    };
+  }
 };

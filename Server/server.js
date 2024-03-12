@@ -193,7 +193,7 @@ exports.handler = async (event) => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message: "Data updated successfully", ddd: parsedData }),
+        body: JSON.stringify({ message: "Data updated successfully", 222: parsedData }),
       };
     });
   });
@@ -201,13 +201,41 @@ exports.handler = async (event) => {
       // Process the data, update JSON file, etc.
 
       // Return a successful response
-      return {
-        statusCode: 200,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: "Data updated successfully", ddd: data }),
-      };
+      // return {
+      //   statusCode: 200,
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify({ message: "Data updated successfully", 111: data }),
+      // };
+    } else if (event.httpMethod === "GET" && event.path.endsWith("/read-from-json")) {
+
+      const filePath = path.join(__dirname, "..", "src", "data.json");
+
+      fs.readFile(filePath, (err, fileData) => {
+        if (err) {
+          console.error(err);
+          return {
+            statusCode: 500,
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ message: "error while reading the data" }),
+          };
+          // res.status(500).send("שגיאה בקריאת הנתונים");
+          // return;
+        }
+
+        let parsedData = JSON.parse(fileData);
+
+        return {
+          statusCode: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message: "Data read successfully", 333: parsedData })
+        }
+      })
     } else {
       // Handle other routes or methods
       return {

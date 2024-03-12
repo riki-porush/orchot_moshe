@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const { handler } = require('./functions/server');
 
 const app = express();
 
@@ -60,11 +61,9 @@ app.post('/write-to-json', (req, res) => {
 app.get('*', (req, res) => {
   return res.status(200).send(',שרת node פועל');
 });
-
 // התאמת הפונקציה לפונקציות של Netlify
 exports.handler = async (event, context) => {
-  // Netlify expects this handler function to be exported
-  return app(event, context);
+  return handler(event, context);
 };
 
 // פתיחת פורט

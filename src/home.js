@@ -6,7 +6,7 @@ import OMHeader from "./header";
 import { Link } from "react-router-dom";
 import "react-circular-progressbar/dist/styles.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import studentsData from "./data.json";
+import studentsData from "../public/data.json";
 import { BrouthRoute } from "./dashboard";
 import "./home.css";
 import "./header.css";

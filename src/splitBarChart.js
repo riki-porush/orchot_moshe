@@ -13,7 +13,7 @@ import {
   Legend,
 } from "recharts";
 import "./App.css";
-import studentsData from "./data.json";
+import studentsData from "../public/data.json";
 import finalLogo from "./logoFinal.png";
 import HomePage from "./home";
 import OMHeader from "./header.js";

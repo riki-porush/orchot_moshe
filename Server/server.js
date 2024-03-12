@@ -142,7 +142,7 @@ exports.handler = async (event) => {
         const jsonData = JSON.stringify(data);
   
         // כתיבת הנתונים לקובץ JSON בתיקיה 'src'
-        const filePath = path.join(__dirname, "..", "src", "data.json");
+        const filePath = path.join(__dirname, "../../", "src", "data.json");
   
         const fileData = fs.readFileSync(filePath);
         // if (err) {
@@ -227,7 +227,7 @@ exports.handler = async (event) => {
       event.httpMethod === "GET" &&
       event.path.endsWith("/read-from-json")
     ) {
-      const filePath = path.join(__dirname, "..", "src", "data.json");
+      const filePath = path.join(__dirname, "..", "public", "data.json");
 
       fs.readFile(filePath, (err, fileData) => {
         if (err) {

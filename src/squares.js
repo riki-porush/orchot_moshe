@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import students from "./data.json";
+import students from "../public/data.json";
 import "./squares.css";
 import OMHeader from './header.js'
 

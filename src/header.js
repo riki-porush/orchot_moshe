@@ -4,7 +4,7 @@ import "./header.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import logo from "./logoFinal.png";
-import studentsData from "./data.json";
+import studentsData from "../public/data.json";
 import App from "./App";
 import HomePage from "./home.js";
 import { Link } from "react-router-dom";

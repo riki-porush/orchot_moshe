@@ -135,7 +135,7 @@ app.get("*", (req, res) => {
 
 exports.handler = async (event) => {
   try {
-    if (event.httpMethod === "POST" && event.path === "/write-to-json") {
+    if (event.httpMethod === "POST" && event.path.endsWith("/write-to-json")) {
       // Extract data from the event body
       const data = JSON.parse(event.body);
 

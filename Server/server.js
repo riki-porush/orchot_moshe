@@ -104,7 +104,7 @@ exports.handler = async function (event, context) {
       headers,
       body: _getData(),
     };
-  } else  if (route === "/read-from-json" && event.httpMethod === "GET") {
+  } else  if (route.endsWith("/read-from-json") && event.httpMethod === "GET") {
     // Call the corresponding Express route handler
     const expressRes = await new Promise((resolve, reject) => {
       const expressReq = httpMocks.createRequest(event);

@@ -127,7 +127,7 @@ exports.handler = async function (event, context) {
     // Handle other routes or HTTP methods
     return {
       statusCode: 200,
-      body: "Orchot Moshe",
+      body: `Orchot Moshe route: ${route}, httpMethod: ${event.httpMethod}`,
     };
   }
 };

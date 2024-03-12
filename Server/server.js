@@ -63,6 +63,14 @@ app.post("/write-to-json", (req, res) => {
   // res.send("hello");
 });
 
+app.get("/read-from-json", (req, res) => {
+  const filePath = path.join(__dirname, "..", "src", "data.json");
+
+  const fileData = fs.readFileSync(filePath)
+
+  res.status(200).send(fileData)
+})
+
 // הגדרת נתיב לקובץ ה-HTML הראשי של ה-React app
 app.get("*", (req, res) => {
   console.log(req);
@@ -78,6 +86,25 @@ exports.handler = async function (event, context) {
 
   // Define your logic to handle different routes
   if (route === "/write-to-json" && event.httpMethod === "POST") {
+    // Call the corresponding Express route handler
+    const expressRes = await new Promise((resolve, reject) => {
+      const expressReq = httpMocks.createRequest(event);
+      const expressRes = httpMocks.createResponse({ event });
+      app.handle(expressReq, expressRes, () => {
+        resolve(expressRes);
+      });
+    });
+
+    // Extract the relevant data from the Express response
+    const { statusCode, headers, _getData } = expressRes;
+
+    // Return the Lambda response
+    return {
+      statusCode,
+      headers,
+      body: _getData(),
+    };
+  } else  if (route === "/read-from-json" && event.httpMethod === "GET") {
     // Call the corresponding Express route handler
     const expressRes = await new Promise((resolve, reject) => {
       const expressReq = httpMocks.createRequest(event);

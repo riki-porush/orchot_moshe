@@ -68,7 +68,7 @@ app.get("*", (req, res) => {
   return res.status(200).send(",שרת node פועל");
 });
 // התאמת הפונקציה לפונקציות של Netlify
-exports.handler = async (event, context) => {
+exports.handler = async function(event, context) {
   app.post("/write-to-json", (req, res) => {
     const data = req.body;
     const jsonData = JSON.stringify(data);

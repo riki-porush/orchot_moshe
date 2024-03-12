@@ -6,7 +6,7 @@ import OMHeader from "./header";
 import { Link } from "react-router-dom";
 import "react-circular-progressbar/dist/styles.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-// import studentsData from "./data.json";
+import studentsData from "./data.json";
 import { BrouthRoute } from "./dashboard";
 import "./home.css";
 import "./header.css";
@@ -14,18 +14,12 @@ import logo from "./logoFinal.png";
 import vy from "./videoYeshiva.js";
 import pdfFile from "./text.pdf";
 
-async function fetchData() {
-    const studentsData = await import("./data.json");
-    return studentsData;
-  }
-
-const HomePage = async () => {
+const HomePage = () => {
   const [videoPlaying, setVideoPlaying] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
   const [showRender, setShowRender] = useState(false);
   const [showDonationDetails, setShowDonationDetails] = useState(false);
-    const target = 4000000;
-    const studentsData = await fetchData();
+  const target = 4000000;
   const totalDonation = studentsData.reduce((accumulator, currentEntry) => {
     return accumulator + currentEntry.donation;
   }, 0);

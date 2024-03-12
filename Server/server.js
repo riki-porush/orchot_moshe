@@ -193,7 +193,7 @@ exports.handler = async (event) => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message: "Data updated successfully", ddd: data }),
+        body: JSON.stringify({ message: "Data updated successfully", ddd: parsedData }),
       };
     });
   });

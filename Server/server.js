@@ -60,6 +60,10 @@ app.post('/write-to-json', (req, res) => {
 app.get('*', (req, res) => {
   return res.status(200).send(',שרת node פועל');
 });
+exports.handler = async (event, context) => {
+  // Netlify expects this handler function to be exported
+  return app(event, context);
+};
 
 app.listen(3001, () => {
   console.log('השרת פועל על פורט 3001');

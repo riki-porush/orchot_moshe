@@ -66,10 +66,10 @@ app.post("/write-to-json", (req, res) => {
 app.get("/read-from-json", (req, res) => {
   const filePath = path.join(__dirname, "..", "src", "data.json");
 
-  const fileData = fs.readFileSync(filePath)
+  const fileData = fs.readFileSync(filePath);
 
-  res.status(200).send(fileData)
-})
+  res.status(200).send(fileData);
+});
 
 // הגדרת נתיב לקובץ ה-HTML הראשי של ה-React app
 app.get("*", (req, res) => {
@@ -132,72 +132,87 @@ app.get("*", (req, res) => {
 //   }
 // };
 
-
 exports.handler = async (event) => {
   try {
     if (event.httpMethod === "POST" && event.path.endsWith("/write-to-json")) {
       // Extract data from the event body
-      const data = JSON.parse(event.body);
-
-      const jsonData = JSON.stringify(data);
-
-  // כתיבת הנתונים לקובץ JSON בתיקיה 'src'
-  const filePath = path.join(__dirname, "..", "src", "data.json");
-
-  fs.readFile(filePath, (err, fileData) => {
-    if (err) {
-      console.error(err);
-      return {
-        statusCode: 500,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: "error while reading the data" }),
-      };
-      // res.status(500).send("שגיאה בקריאת הנתונים");
-      // return;
-    }
-
-    let parsedData = JSON.parse(fileData);
-    console.log(parsedData);
-
-    // עדכון הרשומה הספציפית בקובץ JSON
-    parsedData = parsedData.map((item) => {
-      if (item.id === data.id) {
+      try {
+        const data = JSON.parse(event.body);
+  
+        const jsonData = JSON.stringify(data);
+  
+        // כתיבת הנתונים לקובץ JSON בתיקיה 'src'
+        const filePath = path.join(__dirname, "..", "src", "data.json");
+  
+        const fileData = fs.readFileSync(filePath);
+        // if (err) {
+        //   console.error(err);
+        //   return {
+        //     statusCode: 500,
+        //     headers: {
+        //       "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify({ message: "error while reading the data" }),
+        //   };
+        //   // res.status(500).send("שגיאה בקריאת הנתונים");
+        //   // return;
+        // }
+  
+        let parsedData = JSON.parse(fileData);
+        console.log(parsedData);
+  
+        // עדכון הרשומה הספציפית בקובץ JSON
+        parsedData = parsedData.map((item) => {
+          if (item.id === data.id) {
+            return {
+              ...item,
+              donation: Number(item.donation) + Number(data.donation),
+            };
+          } else {
+            return item;
+          }
+        });
+  
+        // שמירת הנתונים לקובץ JSON
+        fs.writeFileSync(filePath, JSON.stringify(parsedData));
+        // if (err) {
+        //   console.error(err);
+        //   return {
+        //     statusCode: 500,
+        //     headers: {
+        //       "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify({ message: "Error while saving the data" }),
+        //   };
+        //   // res.status(500).send("שגיאה בשמירת הנתונים");
+        //   // return;
+        // }
+        // res.status(200).send("הנתונים נשמרו בהצלחה");
         return {
-          ...item,
-          donation: Number(item.donation) + Number(data.donation),
+          statusCode: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            message: "Data updated successfully",
+            222: parsedData,
+          }),
         };
-      } else {
-        return item;
-      }
-    });
-
-    // שמירת הנתונים לקובץ JSON
-    fs.writeFile(filePath, JSON.stringify(parsedData), (err) => {
-      if (err) {
-        console.error(err);
+      } catch (error) {
         return {
           statusCode: 500,
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ message: "Error while saving the data" }),
+          body: JSON.stringify({
+            message: "Error, sorry",
+            errorMessageOops: error,
+          }),
         };
-        // res.status(500).send("שגיאה בשמירת הנתונים");
-        // return;
       }
-      // res.status(200).send("הנתונים נשמרו בהצלחה");
-      return {
-        statusCode: 200,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: "Data updated successfully", 222: parsedData }),
-      };
-    });
-  });
-  
+      // });
+      // });
+
       // Process the data, update JSON file, etc.
 
       // Return a successful response
@@ -208,8 +223,10 @@ exports.handler = async (event) => {
       //   },
       //   body: JSON.stringify({ message: "Data updated successfully", 111: data }),
       // };
-    } else if (event.httpMethod === "GET" && event.path.endsWith("/read-from-json")) {
-
+    } else if (
+      event.httpMethod === "GET" &&
+      event.path.endsWith("/read-from-json")
+    ) {
       const filePath = path.join(__dirname, "..", "src", "data.json");
 
       fs.readFile(filePath, (err, fileData) => {
@@ -233,9 +250,12 @@ exports.handler = async (event) => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ message: "Data read successfully", 333: parsedData })
-        }
-      })
+          body: JSON.stringify({
+            message: "Data read successfully",
+            333: parsedData,
+          }),
+        };
+      });
     } else {
       // Handle other routes or methods
       return {

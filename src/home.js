@@ -1,22 +1,17 @@
-import React, { useState, useEffect } from "react";
-import BarScreen from "./barChart";
-import SplitBarChart from "./splitBarChart";
-import Squares from "./squares";
-import OMHeader from "./header";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "react-circular-progressbar/dist/styles.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import studentsData from "../public/data.json";
-import { BrouthRoute } from "./dashboard";
+import studentsData from "./data.json";
 import "./home.css";
 import "./header.css";
 import logo from "./logoFinal.png";
-import vy from "./videoYeshiva.js";
-import pdfFile from "./text.pdf";
+import engProspectus from "./pros-en.pdf";
+import hebProspectus from "./pros-he.pdf";
+import pros_image from "./img.png";
 
 const HomePage = () => {
   const [videoPlaying, setVideoPlaying] = useState(false);
-  const [currentPage, setCurrentPage] = useState(0);
   const [showRender, setShowRender] = useState(false);
   const [showDonationDetails, setShowDonationDetails] = useState(false);
   const target = 4000000;
@@ -38,8 +33,8 @@ const HomePage = () => {
     setShowDonationDetails(false);
   };
 
-  const openPdfInNewTab = () => {
-    window.open(pdfFile, "_blank", "fullscreen=yes");
+  const openPdfInNewTab = (pdfSrc) => {
+    window.open(pdfSrc, "_blank", "fullscreen=yes");
   };
 
   return (
@@ -49,7 +44,7 @@ const HomePage = () => {
           <div className="video-container">
             {videoPlaying && (
               <video controls autoPlay>
-                <source src="/pubvid.mp4" type="video/mp4"/>
+                <source src="/pubvid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             )}
@@ -60,7 +55,7 @@ const HomePage = () => {
 
           {videoPlaying && (
             <video controls autoPlay>
-              <source src="/buildvid.mp4" type="video/mp4"/>
+              <source src="/buildvid.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           )}
@@ -77,15 +72,23 @@ const HomePage = () => {
             למתרימים
           </Link>
           <div className="card-text">
-            <a href={pdfFile} target="_blank" style={{ fontSize: "20px" }}>
-              לצפייה במסך מלא
+            <a
+              href={engProspectus}
+              target="_blank"
+              style={{ fontSize: "20px" }}
+            >
+              לצפייה במסך מלא באנגלית
             </a>
-            <embed
-              src={pdfFile}
-              type="application/pdf"
-              width="100%"
-              height="330px"
-            />
+            <br></br>
+            <br></br>
+            <a
+              href={hebProspectus}
+              target="_blank"
+              style={{ fontSize: "20px" }}
+            >
+              לצפייה במסך מלא בעברית
+            </a>
+            <img src={pros_image} alt="image"></img>
           </div>
         </div>
         <div className="right-container">

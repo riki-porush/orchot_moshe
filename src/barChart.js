@@ -13,7 +13,7 @@ import {
   Legend
 } from "recharts";
 import "./App.css";
-import studentsData from "..public/data.json";
+import studentsData from "./data.json";
 import OMHeader from "./header.js";
 
 const BarScreen = () => {

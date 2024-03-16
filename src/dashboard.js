@@ -8,7 +8,7 @@ export default function Dashboard() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentPage((prevPage) => (prevPage + 1) % 4);
-        }, 15000);
+        }, 60000);
 
         return () => clearInterval(interval);
     }, [currentPage]);
@@ -16,13 +16,13 @@ export default function Dashboard() {
     const renderPage = () => {
         switch (currentPage) {
             case 0:
-                return <BarScreen />;
-            case 1:
-                return <SplitBarChart />;
-            case 2:
                 return <Squares />;
+            case 1:
+                return <BarScreen />;  
+            case 2:
+                return <SplitBarChart />;
             default:
-                return <BarScreen />;
+                return <Squares />;
         }
     };
 

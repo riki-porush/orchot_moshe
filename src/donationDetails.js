@@ -24,7 +24,14 @@ function DonationDetails() {
       window.alert("סיסמה שגויה, לשימוש מנהל המערכת בלבד");
       return;
     }
-    
+    if (idNumber === null) {
+      window.alert("נא הזן מספר זהות");
+      return;
+    }
+    if (amount === null) {
+      window.alert("נא הזן סכום לתרומה");
+      return;
+    }
     try {
       const response = await axios.post(
          "https://orchot-moshe.com/.netlify/functions/server/write-to-json",
@@ -36,7 +43,6 @@ function DonationDetails() {
           },
         }
       );
-      debugger;
       console.log(response.data);
       window.alert("התרומה התעדכנה בהצלחה");
     } catch (error) {

@@ -19,13 +19,13 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname, "src", "build")));
+app.use(express.static(path.join(__dirname, "..", "src", "build")));
 
 app.post("/write-to-json", (req, res) => {
   const data = req.body;
   const jsonData = JSON.stringify(data);
 
-  const filePath = path.join(__dirname, "src", "data.json");
+  const filePath = path.join(__dirname, "..", "src", "data.json");
 
   fs.readFile(filePath, (err, fileData) => {
     if (err) {
@@ -57,25 +57,25 @@ app.post("/write-to-json", (req, res) => {
   });
 });
 
-app.get("/read-from-json", (req, res) => {
-  const filePath = path.join(__dirname, "src", "data.json");
+// app.get("/read-from-json", (req, res) => {
+//   const filePath = path.join(__dirname, "src", "data.json");
 
-  fs.readFile(filePath, (err, fileData) => {
-    if (err) {
-      console.error(err);
-      res.status(500).send("Error reading data");
-      return;
-    }
+//   fs.readFile(filePath, (err, fileData) => {
+//     if (err) {
+//       console.error(err);
+//       res.status(500).send("Error reading data");
+//       return;
+//     }
 
-    let parsedData = JSON.parse(fileData);
+//     let parsedData = JSON.parse(fileData);
 
-    res.status(200).send(parsedData);
-  });
-});
+//     res.status(200).send(parsedData);
+//   });
+// });
 
-app.get("*", (req, res) => {
-  res.status(200).send("Server is running");
-});
+// app.get("*", (req, res) => {
+//   res.status(200).send("Server is running");
+// });
 
 exports.handler = async (event) => {
   try {
@@ -85,7 +85,7 @@ exports.handler = async (event) => {
 
         const jsonData = JSON.stringify(data);
 
-        const filePath = path.join(__dirname, "../../", "src", "data.json");
+        const filePath = path.join(__dirname, "..", "src", "data.json");
 
         const fileData = fs.readFileSync(filePath);
         let parsedData = JSON.parse(fileData);

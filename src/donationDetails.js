@@ -27,7 +27,6 @@ function DonationDetails() {
     
     try {
       const response = await axios.post(
-       //"http://localhost:5000/write-to-json",
          "https://orchot-moshe.com/.netlify/functions/server/write-to-json",
         { id: idNumber, donation: amount },
         {

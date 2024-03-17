@@ -19,13 +19,13 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname, "..", "src", "build")));
+app.use(express.static(path.join(__dirname, "..","..", "src", "build")));
 
 app.post("/write-to-json", (req, res) => {
   const data = req.body;
   const jsonData = JSON.stringify(data);
 
-  const filePath = path.join(__dirname, "..", "src", "data.json");
+  const filePath = path.join(__dirname, "..","..", "src", "data.json");
 
   fs.readFile(filePath, (err, fileData) => {
     if (err) {
@@ -85,7 +85,7 @@ exports.handler = async (event) => {
 
         const jsonData = JSON.stringify(data);
 
-        const filePath = path.join(__dirname, "..", "src", "data.json");
+        const filePath = path.join(__dirname, "..","..", "src", "data.json");
 
         const fileData = fs.readFileSync(filePath);
         let parsedData = JSON.parse(fileData);
@@ -131,7 +131,7 @@ exports.handler = async (event) => {
       event.httpMethod === "GET" &&
       event.path.endsWith("/read-from-json")
     ) {
-      const filePath = path.join(__dirname, "..", "src", "data.json");
+      const filePath = path.join(__dirname, "..","..", "src", "data.json");
 
       fs.readFile(filePath, (err, fileData) => {
         if (err) {
